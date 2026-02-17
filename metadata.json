@@ -1,0 +1,7 @@
+{
+  "name": "Juan David Botero - Full-Stack Portfolio",
+  "description": "A professional portfolio for Juan David Botero, showcasing 6+ years of experience in Full-Stack development, microservices, and technical leadership.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
