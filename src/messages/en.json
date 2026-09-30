@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Juan David Botero | Full-Stack Engineer",
+    "description": "Full-Stack Engineer in Medellín, Colombia. Node.js, React and React Native with hexagonal architecture and cloud. Available now, remote or hybrid.",
+    "ogLocale": "en_US"
+  },
+  "nav": {
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "langLabel": "Language"
+  },
+  "hero": {
+    "avail": "Available now · remote or hybrid",
+    "line1": "Backends that hold under load.",
+    "line2": "Apps that work offline.",
+    "sub": "Full-Stack Engineer in Medellín, Colombia. Node.js, React and React Native, with hexagonal architecture and cloud.",
+    "cta1": "See projects",
+    "cta2": "Let's talk",
+    "bubble": "Hi! I'm Juan David. I build the whole product, from server to screen.",
+    "years": "years of experience",
+    "companies": "companies",
+    "live": "live"
+  },
+  "projects": {
+    "title": "Projects",
+    "sub": "Four products I designed and built. Three are online and you can try them.",
+    "highlightsLabel": "The hard parts",
+    "items": [
+      {
+        "statusLabel": "Private · Domina",
+        "desc": "Lead developer of the couriers' mobile app on a last-mile delivery platform at Domina Entrega Total.",
+        "linkLabels": [],
+        "highlights": [
+          "Offline-first GPS tracking",
+          "Anti-fraud validation of delivery proofs",
+          "Real-time chat and navigation redesign"
+        ],
+        "note": "No screenshots, for confidentiality"
+      },
+      {
+        "statusLabel": "Live",
+        "desc": "Detects anomalies in electricity consumption and explains each finding with a recommended action. Deterministic engine in Go, no LLM making the call.",
+        "linkLabels": [
+          "See it live →"
+        ]
+      },
+      {
+        "statusLabel": "In the stores",
+        "desc": "Mobile app and backend, built end to end. Healthcare professionals use it to look up a line of homeopathic products.",
+        "linkLabels": [
+          "App Store",
+          "Google Play"
+        ]
+      },
+      {
+        "statusLabel": "Live",
+        "desc": "The website of a real coffee business in Marinilla. Static Next.js, fast, with its own brand.",
+        "linkLabels": [
+          "See it live →"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Chapters",
+    "sub": "Six years of story, from a bank apprenticeship to leading a last-mile delivery app.",
+    "entries": [
+      {
+        "dates": "Feb 2023 – Sep 2026",
+        "role": "Full-Stack Developer",
+        "bullets": [
+          "Lead developer of the couriers' app (React Native, Expo, TypeScript): offline-first GPS, anti-fraud validation and real-time chat.",
+          "Designed a documents microservice and its BFF with NestJS, hexagonal architecture, DDD and CQRS.",
+          "Built an address-processing pipeline (FastAPI, Pub/Sub, N8N, PostgreSQL, MongoDB, AWS SES) and a real-time operations chat (FastAPI, MongoDB, Keycloak, Socket.IO).",
+          "Built React micro-frontends sharing reusable components and prepared internal training on React Native and GCP."
+        ]
+      },
+      {
+        "dates": "Nov 2021 – Feb 2023",
+        "role": "Full-Stack Developer",
+        "bullets": [
+          "Modules with PHP (Yii) and JavaScript on PostgreSQL and DB2.",
+          "Resolved high-level incidents on mission-critical applications."
+        ]
+      },
+      {
+        "dates": "Jul 2021 – Nov 2021",
+        "role": "Backend Developer",
+        "bullets": [
+          "Scalable APIs with Node.js and .NET, implementing GraphQL."
+        ]
+      },
+      {
+        "dates": "Aug 2020 – Apr 2021",
+        "role": "Developer",
+        "bullets": [
+          "New modules and features in JavaScript and PHP, plus MySQL database administration."
+        ]
+      },
+      {
+        "dates": "Oct 2019 – Apr 2020",
+        "role": "Apprentice",
+        "bullets": []
+      }
+    ]
+  },
+  "stack": {
+    "title": "Superpowers",
+    "groups": [
+      "Backend",
+      "Front and mobile",
+      "Cloud and DevOps",
+      "Data"
+    ]
+  },
+  "education": {
+    "title": "Origin story",
+    "degreesTitle": "Education",
+    "degrees": [
+      {
+        "title": "Technologist in Systems Analysis and Development",
+        "detail": "SENA · 2018 – 2020"
+      },
+      {
+        "title": "Technician in Software Development",
+        "detail": "SENA · 2016 – 2017"
+      }
+    ],
+    "certsTitle": "Certifications",
+    "certs": [
+      {
+        "title": "Node.js esencial"
+      },
+      {
+        "title": "Node.js avanzado"
+      },
+      {
+        "title": "AWS Cloud Quest: Cloud Practitioner"
+      },
+      {
+        "title": "NodeJS: From zero to expert",
+        "detail": "Udemy · DevTalles · 37.5 h · Sep 2026"
+      }
+    ],
+    "langsTitle": "Languages",
+    "langs": [
+      "Spanish · native",
+      "English · conversational (B1)"
+    ]
+  },
+  "contact": {
+    "title": "Got a backend that struggles or an app that needs to ship? Write to me.",
+    "label": "Email",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "footer": "Built with Next.js and plenty of ink"
+}

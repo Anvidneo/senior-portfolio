@@ -1,4 +1,6 @@
 import { CONTENT, getContent } from "@/lib/content";
+import en_ from "@/messages/en.json";
+import es_ from "@/messages/es.json";
 
 const { es, en } = CONTENT;
 
@@ -44,5 +46,18 @@ describe("content parity between languages", () => {
         for (const link of project.links) expect(link.href.startsWith("https://")).toBe(true);
       }
     }
+  });
+});
+
+describe("translation files", () => {
+  const shape = (value: unknown): unknown =>
+    Array.isArray(value)
+      ? value.map(shape)
+      : value && typeof value === "object"
+        ? Object.fromEntries(Object.entries(value).map(([k, v]) => [k, shape(v)]))
+        : typeof value;
+
+  it("es.json and en.json have exactly the same shape", () => {
+    expect(shape(en_)).toEqual(shape(es_));
   });
 });
