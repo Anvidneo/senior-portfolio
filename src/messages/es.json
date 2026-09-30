@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Juan David Botero | Full-Stack Engineer",
+    "description": "Full-Stack Engineer en Medellín. Node.js, React y React Native con arquitectura hexagonal y cloud. Disponible ahora, remoto o híbrido.",
+    "ogLocale": "es_CO"
+  },
+  "nav": {
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "langLabel": "Idioma"
+  },
+  "hero": {
+    "avail": "Disponible ahora · remoto o híbrido",
+    "line1": "Backends que aguantan carga.",
+    "line2": "Apps que funcionan sin señal.",
+    "sub": "Full-Stack Engineer en Medellín. Node.js, React y React Native con arquitectura hexagonal y cloud.",
+    "cta1": "Ver proyectos",
+    "cta2": "Hablemos",
+    "bubble": "¡Hola! Soy Juan David. Construyo el producto completo, del servidor a la pantalla.",
+    "years": "años de experiencia",
+    "companies": "empresas",
+    "live": "en vivo"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "sub": "Cuatro productos que diseñé y construí. Tres están en línea y puedes probarlos.",
+    "highlightsLabel": "Lo difícil",
+    "items": [
+      {
+        "statusLabel": "Privado · Domina",
+        "desc": "Desarrollador principal de la app de domiciliarios de una plataforma de última milla en Domina Entrega Total.",
+        "linkLabels": [],
+        "highlights": [
+          "Seguimiento GPS offline-first",
+          "Validación antifraude de pruebas de entrega",
+          "Chat en tiempo real y rediseño de navegación"
+        ],
+        "note": "Sin capturas por confidencialidad"
+      },
+      {
+        "statusLabel": "En vivo",
+        "desc": "Detecta anomalías en el consumo eléctrico y explica cada hallazgo con una acción recomendada. Motor determinístico en Go, sin LLM para decidir.",
+        "linkLabels": [
+          "Ver en vivo →"
+        ]
+      },
+      {
+        "statusLabel": "En tiendas",
+        "desc": "App móvil y backend, hechos de punta a punta. La usan profesionales de la salud para consultar una línea de productos homeopáticos.",
+        "linkLabels": [
+          "App Store",
+          "Google Play"
+        ]
+      },
+      {
+        "statusLabel": "En vivo",
+        "desc": "El sitio de un negocio real de café en Marinilla. Next.js estático, rápido y con marca propia.",
+        "linkLabels": [
+          "Ver en vivo →"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Capítulos",
+    "sub": "Seis años de historia, del aprendizaje en un banco a liderar una app de última milla.",
+    "entries": [
+      {
+        "dates": "Feb 2023 – Sep 2026",
+        "role": "Desarrollador Full-Stack",
+        "bullets": [
+          "Desarrollador principal de la app de domiciliarios (React Native, Expo, TypeScript): GPS offline-first, validación antifraude y chat en tiempo real.",
+          "Diseñé un microservicio de documentos y su BFF con NestJS, arquitectura hexagonal, DDD y CQRS.",
+          "Construí un pipeline de direcciones (FastAPI, Pub/Sub, N8N, PostgreSQL, MongoDB, AWS SES) y un chat operativo en tiempo real (FastAPI, MongoDB, Keycloak, Socket.IO).",
+          "Armé micro-frontends en React con componentes compartidos y preparé capacitaciones internas de React Native y GCP."
+        ]
+      },
+      {
+        "dates": "Nov 2021 – Feb 2023",
+        "role": "Desarrollador Full-Stack",
+        "bullets": [
+          "Módulos con PHP (Yii) y JavaScript sobre PostgreSQL y DB2.",
+          "Resolución de incidentes de alto nivel en aplicaciones de misión crítica."
+        ]
+      },
+      {
+        "dates": "Jul 2021 – Nov 2021",
+        "role": "Desarrollador Backend",
+        "bullets": [
+          "APIs escalables con Node.js y .NET, implementando GraphQL."
+        ]
+      },
+      {
+        "dates": "Ago 2020 – Abr 2021",
+        "role": "Desarrollador",
+        "bullets": [
+          "Nuevos módulos y funcionalidades con JavaScript y PHP, y administración de bases de datos MySQL."
+        ]
+      },
+      {
+        "dates": "Oct 2019 – Abr 2020",
+        "role": "Aprendiz",
+        "bullets": []
+      }
+    ]
+  },
+  "stack": {
+    "title": "Superpoderes",
+    "groups": [
+      "Backend",
+      "Front y móvil",
+      "Cloud y DevOps",
+      "Datos"
+    ]
+  },
+  "education": {
+    "title": "Origen del héroe",
+    "degreesTitle": "Formación",
+    "degrees": [
+      {
+        "title": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información",
+        "detail": "SENA · 2018 – 2020"
+      },
+      {
+        "title": "Técnico en Desarrollo de Software",
+        "detail": "SENA · 2016 – 2017"
+      }
+    ],
+    "certsTitle": "Certificaciones",
+    "certs": [
+      {
+        "title": "Node.js esencial"
+      },
+      {
+        "title": "Node.js avanzado"
+      },
+      {
+        "title": "AWS Cloud Quest: Cloud Practitioner"
+      },
+      {
+        "title": "NodeJS: De cero a experto",
+        "detail": "Udemy · DevTalles · 37,5 h · sep 2026"
+      }
+    ],
+    "langsTitle": "Idiomas",
+    "langs": [
+      "Español · nativo",
+      "Inglés · conversacional (B1)"
+    ]
+  },
+  "contact": {
+    "title": "¿Tienes un backend que sufre o una app que necesita salir? Escríbeme.",
+    "label": "Correo",
+    "copy": "Copiar",
+    "copied": "Copiado"
+  },
+  "footer": "Hecho con Next.js y mucha tinta"
+}
