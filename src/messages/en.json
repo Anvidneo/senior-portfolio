@@ -72,7 +72,7 @@
         "bullets": [
           "Lead developer of the couriers' app (React Native, Expo, TypeScript): offline-first GPS, anti-fraud validation and real-time chat.",
           "Designed a documents microservice and its BFF with NestJS, hexagonal architecture, DDD and CQRS.",
-          "Built an address-processing pipeline (FastAPI, Pub/Sub, N8N, PostgreSQL, MongoDB, AWS SES) and a real-time operations chat (FastAPI, MongoDB, Keycloak, Socket.IO).",
+          "Built an address-processing pipeline (FastAPI, Pub/Sub, PostgreSQL, MongoDB, AWS SES) and a real-time operations chat (FastAPI, MongoDB, Keycloak, Socket.IO).",
           "Built React micro-frontends sharing reusable components and prepared internal training on React Native and GCP."
         ]
       },
