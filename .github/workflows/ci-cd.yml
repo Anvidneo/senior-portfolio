@@ -98,9 +98,8 @@ jobs:
             echo "::error::VERCEL_TOKEN is empty. Add it as a secret named exactly VERCEL_TOKEN in the Production environment or as a repository secret."
             exit 1
           fi
-      - name: Pull Vercel project settings
-        run: pnpm dlx vercel@latest pull --yes --environment=production --token="${{ secrets.VERCEL_TOKEN }}"
-      - name: Build project artifacts
-        run: pnpm dlx vercel@latest build --prod --token="${{ secrets.VERCEL_TOKEN }}"
-      - name: Deploy prebuilt output
-        run: pnpm dlx vercel@latest deploy --prebuilt --prod --token="${{ secrets.VERCEL_TOKEN }}"
+      # Vercel builds on its own servers, with the project settings and
+      # vercel.json. A local `vercel build` + `--prebuilt` produced a
+      # deployment without the prerendered pages (every route was a 404).
+      - name: Deploy to production
+        run: pnpm dlx vercel@latest deploy --prod --token="${{ secrets.VERCEL_TOKEN }}"
