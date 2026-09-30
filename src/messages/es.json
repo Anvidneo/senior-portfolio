@@ -72,7 +72,7 @@
         "bullets": [
           "Desarrollador principal de la app de domiciliarios (React Native, Expo, TypeScript): GPS offline-first, validación antifraude y chat en tiempo real.",
           "Diseñé un microservicio de documentos y su BFF con NestJS, arquitectura hexagonal, DDD y CQRS.",
-          "Construí un pipeline de direcciones (FastAPI, Pub/Sub, N8N, PostgreSQL, MongoDB, AWS SES) y un chat operativo en tiempo real (FastAPI, MongoDB, Keycloak, Socket.IO).",
+          "Construí un pipeline de direcciones (FastAPI, Pub/Sub, PostgreSQL, MongoDB, AWS SES) y un chat operativo en tiempo real (FastAPI, MongoDB, Keycloak, Socket.IO).",
           "Armé micro-frontends en React con componentes compartidos y preparé capacitaciones internas de React Native y GCP."
         ]
       },
