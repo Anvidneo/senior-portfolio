@@ -7,18 +7,18 @@ Portfolio de Juan David Botero: Full-Stack Engineer. Next.js (App Router) export
 Requiere Node.js 20.9 o superior.
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 | Comando | Qué hace |
 | --- | --- |
-| `npm run dev` | Servidor de desarrollo en el puerto 3000 |
-| `npm run build` | Genera el sitio estático en `out/` |
-| `npm run lint` | ESLint |
-| `npm run typecheck` | Chequeo de tipos |
-| `npm test` | Tests con Vitest |
-| `npm run test:coverage` | Tests con cobertura (`coverage/lcov.info`, lo lee Sonar) |
+| `pnpm dev` | Servidor de desarrollo en el puerto 3000 |
+| `pnpm build` | Genera el sitio estático en `out/` |
+| `pnpm lint` | ESLint |
+| `pnpm typecheck` | Chequeo de tipos |
+| `pnpm test` | Tests con Vitest |
+| `pnpm test:coverage` | Tests con cobertura (`coverage/lcov.info`, lo lee Sonar) |
 
 ## Estructura
 
