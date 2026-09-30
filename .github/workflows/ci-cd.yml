@@ -25,6 +25,8 @@ jobs:
   sonarcloud:
     needs: [test]
     runs-on: ubuntu-latest
+    # SONAR_TOKEN is stored as a secret of the "Production" environment.
+    environment: Production
     steps:
       - uses: actions/checkout@v4
         with:
@@ -44,7 +46,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           if [ -z "$SONAR_TOKEN" ]; then
-            echo "::error::SONAR_TOKEN is empty. Add it as a repository secret named exactly SONAR_TOKEN (Settings > Secrets and variables > Actions > Repository secrets)."
+            echo "::error::SONAR_TOKEN is empty. Add it as a secret named exactly SONAR_TOKEN in the Production environment or as a repository secret."
             exit 1
           fi
 
@@ -75,6 +77,8 @@ jobs:
     needs: [test, sonarcloud]
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    # VERCEL_TOKEN is stored as a secret of the "Production" environment.
+    environment: Production
     env:
       # senior-portfolio project on Vercel. Identifiers, not secrets.
       VERCEL_ORG_ID: team_TZxnknKGtCRPnQKtQuuESXVG
@@ -91,7 +95,7 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           if [ -z "$VERCEL_TOKEN" ]; then
-            echo "::error::VERCEL_TOKEN is empty. Add it as a repository secret named exactly VERCEL_TOKEN."
+            echo "::error::VERCEL_TOKEN is empty. Add it as a secret named exactly VERCEL_TOKEN in the Production environment or as a repository secret."
             exit 1
           fi
       - name: Pull Vercel project settings
